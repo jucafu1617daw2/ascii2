@@ -10,7 +10,7 @@ int main() {
 	n='Z'-'A';
 	for (i=n;i>=0;i--) {
 		c='A'+i;
-		printf("%c    %x   %d\n",c,c,c);
+		printf("%c    %x   %d\n",c+32,c+32,c+32);
 	}
 	return(0);
 }
